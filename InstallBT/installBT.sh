@@ -74,3 +74,15 @@ sudo pacman -S --noconfirm --needed bluez-utils
 echo
 echo "██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████"
 echo
+echo "██████████████████████████████████████████        enabling bluetooth service         ██████████████████████████████████████████"
+echo
+sudo systemctl enable bluetooth.service
+echo
+echo "██████████████████████████████████████████        start bluetooth service         ██████████████████████████████████████████"
+echo
+sudo systemctl start bluetooth.service
+echo
+echo "██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████"
+echo
+echo "DONE :-)"
+echo "PLEASE REBOOT / SIGNOUT TO TAKE THE FULL EFFECT"
