@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #DISCLAIMER
-#Use [Your Script Name] at your own risk.
-#No warranties provided. [Your Name/Company] not liable for any damages from use.
+#Use this script at your own risk.
+#No warranties provided. ROXXAMAY not liable for any damages from use.
 #Subject to change. By using, you accept terms
 
 cat << "EOF"
